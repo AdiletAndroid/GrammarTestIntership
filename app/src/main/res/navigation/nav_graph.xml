@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/grammarTestFragment">
+
+    <fragment
+        android:id="@+id/grammarTestFragment"
+        android:name="com.example.grammartestintership.grammarTest.GrammarTestFragment"
+        android:label="fragment_grammar_test"
+        tools:layout="@layout/fragment_grammar_test" />
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.grammartestintership.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.grammartestintership.result.ResultFragment"
+        android:label="ResultFragment" />
+</navigation>

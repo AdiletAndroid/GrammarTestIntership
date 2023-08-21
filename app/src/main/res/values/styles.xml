@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogStyle">
+        <item name="android:background">#f1f1f1</item>
+        <item name="android:windowBackground">#f1f1f1</item>
+        <item name="android:windowFrame">@color/dialog_border_color</item>
+    </style>
+</resources>
