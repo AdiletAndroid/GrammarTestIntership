@@ -250,7 +250,9 @@
                 android:progressDrawable="@drawable/custom_horizontal_progress"
                 android:progressTint="@color/progressbar_color"
                 app:layout_constraintBottom_toBottomOf="@+id/image_view_achievment"
-                app:layout_constraintStart_toEndOf="@+id/image_view_achievment" />
+                app:layout_constraintEnd_toStartOf="@+id/text_view_achievment_count"
+                app:layout_constraintStart_toEndOf="@+id/image_view_achievment"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_achievment_task" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
